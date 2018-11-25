@@ -29,15 +29,24 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>taglibs</groupId>
+			<artifactId>standard</artifactId>
+			<version>1.1.2</version>
+		</dependency>
+
+		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
 			<version>5.0.8.RELEASE</version>
 		</dependency>
+		
+		<!-- 
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>5.0.8.RELEASE</version>
 		</dependency>
+		-->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-aop</artifactId>
@@ -70,9 +79,50 @@
 			<artifactId>jsf-impl</artifactId>
 			<version>2.2.18</version>
 		</dependency>
-		<!-- <dependency> <groupId>javax.validation</groupId> <artifactId>validation-api</artifactId> 
-			<version>1.0.0.GA</version> </dependency> <dependency> <groupId>org.hibernate</groupId> 
-			<artifactId>hibernate-validator</artifactId> <version>4.3.1.Final</version> 
-			</dependency> -->
+
+<!-- 
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>1.0.0.GA</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>4.3.1.Final</version>
+		</dependency>
+		-->
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+
+<!-- 
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>5.0.8.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.faces</groupId>
+			<artifactId>javax.faces-api</artifactId>
+			<version>2.2</version>
+			<scope>provided</scope>
+		</dependency>
+-->
+		<!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+		<!-- 
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.2</version>
+			<scope>provided</scope>
+		</dependency>
+
+-->
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-slf4j-impl</artifactId>
+			<version>2.11.1</version>
+		</dependency>
+
 	</dependencies>
 </project>
