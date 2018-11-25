@@ -1,0 +1,10 @@
+com\huangshotelreservationsystem\business\UpdateProfileManager.class
+com\huangshotelreservationsystem\business\LoginManager.class
+com\huangshotelreservationsystem\service\IService.class
+com\huangshotelreservationsystem\controller\ControllerManager.class
+com\huangshotelreservationsystem\service\customer\CustomerSvcJDBCImpl.class
+com\huangshotelreservationsystem\service\factory\ServiceFactory.class
+com\huangshotelreservationsystem\service\ServiceLoadException.class
+com\huangshotelreservationsystem\model\domain\CustomerBean.class
+com\huangshotelreservationsystem\service\customer\ICustomerSvc.class
+com\huangshotelreservationsystem\model\domain\LoginBean.class
